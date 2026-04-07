@@ -1,0 +1,12 @@
+.env
+*.md
+.cache/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.pyc
+.sisyphus/
+outputs/
+downloads/oss/
+downloads/*-src/
+oss_research/

@@ -1,0 +1,21 @@
+[package]
+name = "qsf_rust_kernels"
+version = "0.1.0"
+edition = "2021"
+description = "Scaffold crate for QSF compute kernels"
+license = "MIT"
+
+[lib]
+name = "qsf_rust_kernels"
+crate-type = ["rlib", "cdylib"]
+
+[features]
+default = []
+kernel-ranking = []
+kernel-constructor = []
+kernel-backtest = []
+python-binding = []
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

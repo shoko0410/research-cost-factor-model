@@ -1,0 +1,4 @@
+"""Local runtime qsf package for module execution."""
+
+__all__ = ["__version__"]
+__version__ = "0.1.0"
